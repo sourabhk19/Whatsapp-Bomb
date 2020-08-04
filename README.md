@@ -8,7 +8,7 @@ I had paid for the broadband service to the contractor, but the person was not r
 This program runs on Google Chrome.
 
 ## To Run:
-python whatsapp_bomb.py
+``` python whatsapp_bomb.py ```
 
 Multiple messages can also be sent by creating an array and random function in python.
 
