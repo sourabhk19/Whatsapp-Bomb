@@ -36,17 +36,14 @@ def main():
 			time.sleep(0.5)
 			r=random.randint(0,5)
 			msg_box.send_keys(messages[r]+Keys.ENTER)
-			#msg_box.send_keys(msg+Keys.ENTER)
+			
 			# The classname of send button may vary.
 			time.sleep(0.5)
-			#input_box.send_keys(msg + Keys.ENTER)
-			#button = driver.find_element_by_class_name('_3M-N-')
-			#button.click()
-		except:# EC as e:
-        	#raise e
+			
+		except:
 			print("exception")
 
-	#print('Bombing Complete!!')
+	print('Bombing Complete!!')
 
 banner()
 main()
